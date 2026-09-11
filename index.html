@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alimatou Diagne — UX Researcher &amp; Designer</title>
+<meta name="description" content="Portfolio UX / UX Portfolio — Alimatou Diagne, Senior UX Researcher &amp; Data Analytics Lead, Dakar, Sénégal.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brandmark" href="#top">
+    <span class="brandmark-glyph">AD</span>
+  </a>
+
+  <nav class="mainnav" aria-label="Main">
+    <a href="#work" data-i18n="nav.work">Travaux</a>
+    <a href="#method" data-i18n="nav.method">Méthode</a>
+    <a href="#about" data-i18n="nav.about">À propos</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+
+  <div class="controls">
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-lang="fr" class="lang-btn is-active">FR</button>
+      <button type="button" data-lang="en" class="lang-btn">EN</button>
+    </div>
+    <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v3M12 18.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2.5 12h3M18.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+      <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/></svg>
+    </button>
+    <button type="button" class="nav-toggle" id="navToggle" aria-label="Menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="hero-kicker" data-i18n="hero.kicker">Recherche UX &amp; Design de produit — Dakar, Sénégal</p>
+        <h1 class="hero-title">
+          <span data-i18n="hero.title.l1">Concevoir</span>
+          <span data-i18n="hero.title.l2">à partir</span>
+          <span data-i18n="hero.title.l3" class="hero-title-accent">des preuves.</span>
+        </h1>
+        <p class="hero-desc" data-i18n="hero.desc">Je conçois des expériences pour des entrepreneurs, des ONG et des programmes panafricains en combinant recherche utilisateur, data science et design d'interaction — de l'entretien terrain jusqu'au prototype testé.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary" data-i18n="hero.cta.work">Voir les études de cas</a>
+          <a href="assets/cv/Alimatou_Diagne_CV_EN.pdf" class="btn btn-ghost" download data-i18n="hero.cta.cv">Télécharger le CV</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Key figures">
+        <div class="panel-row">
+          <span class="panel-num">10+</span>
+          <span class="panel-label" data-i18n="hero.stat.years">années en recherche &amp; data</span>
+        </div>
+        <div class="panel-div"></div>
+        <div class="panel-row">
+          <span class="panel-num">17</span>
+          <span class="panel-label" data-i18n="hero.stat.studies">études de cas UX documentées</span>
+        </div>
+        <div class="panel-div"></div>
+        <!-- <div class="panel-row">
+          <span class="panel-num">14&nbsp;000+</span>
+          <span class="panel-label" data-i18n="hero.stat.users">entrepreneurs&nbsp;/&nbsp;utilisateurs étudiés</span>
+        </div> -->
+        <div class="panel-div"></div>
+        <div class="panel-row">
+          <span class="panel-num">10</span>
+          <span class="panel-label" data-i18n="hero.stat.coached">startups coachées — programme FAST</span>
+        </div>
+        <div class="panel-div"></div>
+        <div class="panel-row">
+          <span class="panel-num">$150K+</span>
+          <span class="panel-label" data-i18n="hero.stat.raised">levés par Carvi Food, sa propre entreprise</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ METHOD ============ -->
+  <section class="method" id="method">
+    <div class="section-head">
+      <h2 data-i18n="method.title">Une méthode, appliquée dix-sept fois</h2>
+      <p data-i18n="method.desc">Chaque étude de cas de ce portfolio suit le même protocole de terrain — pensé pour des contextes à ressources limitées, où l'on n'a souvent qu'une session pour convaincre.</p>
+    </div>
+    <ol class="method-steps">
+      <li>
+        <span class="step-index">01</span>
+        <h3 data-i18n="method.step1.title">Problème</h3>
+        <p data-i18n="method.step1.desc">Cadrer le vrai problème business et humain, au-delà de la demande initiale.</p>
+      </li>
+      <li>
+        <span class="step-index">02</span>
+        <h3 data-i18n="method.step2.title">Recherche</h3>
+        <p data-i18n="method.step2.desc">Entretiens, observation terrain, analyse concurrentielle et personas.</p>
+      </li>
+      <li>
+        <span class="step-index">03</span>
+        <h3 data-i18n="method.step3.title">Insight</h3>
+        <p data-i18n="method.step3.desc">Isoler la tension qui bloque réellement l'usage ou la croissance.</p>
+      </li>
+      <li>
+        <span class="step-index">04</span>
+        <h3 data-i18n="method.step4.title">Solution</h3>
+        <p data-i18n="method.step4.desc">Parcours, wireframes et prototypes conçus et testés dans Figma ou en HTML.</p>
+      </li>
+      <li>
+        <span class="step-index">05</span>
+        <h3 data-i18n="method.step5.title">Résultat</h3>
+        <p data-i18n="method.step5.desc">Tests d'utilisabilité chiffrés (taux de réussite par tâche) et recommandations.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ============ WORK / INDEX ============ -->
+  <section class="work" id="work">
+    <div class="section-head">
+      <h2 data-i18n="work.title">L'index des projets</h2>
+      <p data-i18n="work.desc">Dix-sept dossiers de terrain, du prototype testé à l'entreprise réelle. Chaque ligne s'ouvre sur le détail ; chaque étude complète est disponible en PDF.</p>
+    </div>
+
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="filter-chip is-active" data-filter="all" data-i18n="filter.all">Tout</button>
+      <button class="filter-chip" data-filter="fast" data-i18n="filter.fast">Programme FAST</button>
+      <button class="filter-chip" data-filter="indep" data-i18n="filter.indep">Recherches indépendantes</button>
+      <button class="filter-chip" data-filter="flagship" data-i18n="filter.flagship">Missions phares</button>
+    </div>
+
+    <div class="index-head" aria-hidden="true">
+      <span data-i18n="work.col.project">Projet</span>
+      <span data-i18n="work.col.domain">Domaine</span>
+      <span data-i18n="work.col.result">Résultat clé du test</span>
+      <span></span>
+    </div>
+
+    <div class="project-list" id="projectList"><!-- injected by script.js --></div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-lead">
+        <h2 data-i18n="about.title">À propos</h2>
+        <p class="about-p" data-i18n="about.p1">Je suis data scientist de formation, devenue chercheuse et designeuse UX par nécessité — parce qu'un tableau de bord juste ne suffit pas si personne ne l'utilise. Depuis dix ans, j'accompagne des programmes de la Fondation Mastercard, du Graça Machel Trust et d'initiatives financées par l'USAID, en Afrique de l'Ouest et au-delà.</p>
+        <p class="about-p" data-i18n="about.p2">Mon terrain de prédilection reste l'entrepreneuriat à ressources limitées : coacher une startup à Cotonou m'apprend autant sur l'expérience utilisateur qu'un audit UX à Dakar — les mêmes questions s'y posent, avec moins de marge d'erreur.</p>
+      </div>
+      <div class="about-skills">
+        <div class="skill-group">
+          <h3 data-i18n="about.skill1.title">Recherche &amp; Design UX</h3>
+          <p data-i18n="about.skill1.items">Entretiens utilisateurs · tests d'usabilité · journey mapping · personas · wireframes · prototypage · Figma · Adobe XD</p>
+        </div>
+        <div class="skill-group">
+          <h3 data-i18n="about.skill2.title">Data &amp; Analytics</h3>
+          <p data-i18n="about.skill2.items">Suivi-évaluation (M&amp;E) · tableaux de bord KPI · ETL · BigQuery · Spark · SQL · Python · R · Power BI · SPSS · STATA</p>
+        </div>
+        <div class="skill-group">
+          <h3 data-i18n="about.skill3.title">Web &amp; Livraison</h3>
+          <p data-i18n="about.skill3.items">HTML · CSS · JavaScript · PHP · reporting bailleurs · animation d'ateliers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <h2 data-i18n="contact.title">Travaillons ensemble</h2>
+      <p data-i18n="contact.desc">Disponible pour des missions de recherche UX, de design produit ou d'analytics à distance, à temps plein ou partiel.</p>
+      <div class="contact-links">
+        <a href="mailto:zadya22@gmail.com">zadya22@gmail.com</a>
+        <a href="tel:+221766476547">+221 76 647 65 47</a>
+        <a href="https://linkedin.com/in/alimatou-diagne" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <a href="assets/cv/Alimatou_Diagne_CV_EN.pdf" class="btn btn-primary" download data-i18n="hero.cta.cv">Télécharger le CV</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitefoot">
+  <span>Alimatou Diagne — Dakar, Sénégal</span>
+  <span data-i18n="footer.rights">Portfolio conçu et codé à la main.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
