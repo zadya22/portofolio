@@ -254,7 +254,7 @@ const PROJECTS = [
     pdf: "assets/pdfs/Carvi_Food_Case.pdf",
     fr: { title: "Carvi Food", domain: "AgriFood / E-commerce", tagline: "Sa propre entreprise — fruits et viande séchés, Sénégal.",
       result: "Le passage au commerce WhatsApp a réduit la commande de 7+ étapes à <b>3 gestes</b>, avec plus de <b>80%</b> de clients fidèles." },
-    en: { title: "Carvi Food", domain: "AgriFood / E-commerce", tagline: "Her own company — dried fruit and dried meat, Senegal.",
+    en: { title: "Carvi Food", domain: "AgriFood / E-commerce", tagline: "Cofounder — dried fruit and dried meat, Senegal.",
       result: "Redesigning checkout around WhatsApp cut ordering from 7+ steps to <b>3 taps</b>, with <b>80%+</b> repeat customers." },
   },
   {
