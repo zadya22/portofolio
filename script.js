@@ -110,7 +110,7 @@ const I18N = {
     "about.skill3.items": "HTML - CSS - JavaScript - PHP - donor reporting - workshop facilitation",
     "contact.title": "Let's work together",
     "contact.desc": "Available for remote UX research, product design or analytics engagements, full-time or part-time.",
-    "footer.rights": "Portfolio designed and hand-coded.",
+    "footer.rights": "",
   }
 };
 
